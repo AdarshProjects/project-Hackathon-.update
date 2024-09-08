@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renovation free survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1 class="text_h1">Fill the Checklists to complete the Survey</h1>
+    <div class="survey_container">
+        <div class="sub_survey_container">
+            <button class="tile_button" onclick="open_container_popup()">Tiling</button>
+            <label>
+                <input type="checkbox" >
+            </label>
+        </div>
+        <div class="sub_survey_container">
+            <button class="tile_button" onclick="opening_Interior_popup()">Interior</button>
+            <label>
+                <input type="checkbox" >
+            </label>
+        </div>
+        <div class="sub_survey_container">
+            <button class="tile_button">Electronics</button>
+            <label>
+                <input type="checkbox" >
+            </label>
+        </div>
+        <div class="sub_survey_container">
+            <button class="tile_button">Plumber</button>
+            <label>
+                <input type="checkbox" >
+            </label>
+        </div>
+        <div class="sub_survey_container">
+            <button class="tile_button">Floor Extension</button>
+            <label>
+                <input type="checkbox" >
+            </label>
+        </div>
+    </div>
+    <button class="Submitting_information" onclick="Submitting_information()">Submit</button>
+<!--*************************************************************************************************************************-->
+        <!--I Have to add here the code of the checklist-->
+    <div class="container_popup" id="container_popup"><!--tiling popup-->
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Tiling</h1>
+             <label>
+                 <input type="checkbox" >
+             </label>
+         </div >
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Granite</h1>
+             <label>
+                 <input type="checkbox" >
+             </label>
+         </div>
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Marbel</h1>
+             <label>
+                 <input type="checkbox" >
+             </label>
+         </div>
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Wood</h1>
+             <label>
+                 <input type="checkbox" >
+             </label>
+         </div>
+         <div class="sub_container_popup12">
+             <h1 class="tile_button1">Area</h1>
+             <input  class="input_box" type="text" placeholder="Area sq.feet"/>
+         </div>
+         <div class="sub_container_popup">
+             <button class="btn_sub_container_popup" onclick="close_container_popup()">Submit</button>
+         </div>
+    </div>
+<!--*******************************************************************************************************
+``````````````````````````````````````Interior popup```````````````````````````````````````````````````````-->
+<div class="Interior_popup" id="Interior_popup"><!--Interior_popup-->
+    <div class="sub_container_popup">
+        <h1 class="tile_button">Furniture</h1>
+        <label>
+            <input type="checkbox" >
+        </label>
+    </div >
+    <div class="sub_container_popup">
+        <h1 class="tile_button">Lightning</h1>
+        <label>
+            <input type="checkbox" >
+        </label>
+    </div>
+    <div class="sub_container_popup">
+        <h1 class="tile_button">Painting</h1>
+        <label>
+            <input type="checkbox" >
+        </label>
+    </div>
+    <div class="sub_container_popup">
+        <button class="btn_interior_popup" onclick="closing_Interior_popup()">Submit</button>
+    </div>
+</div>
+    <script src="survey.js"></script>
+</body>
+</html>

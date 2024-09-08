@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>renovation free survey</title>
+    <link rel="stylesheet" href="HouseBuildfreeSurvey.css">
+</head>
+<body>
+    <h1 class="text_h1">Free Survey</h1>
+        <div class="House_Building_Survey">
+                <h1 class="tile_button1">Area of Land</h1>
+                <input  class="input_box1" type="text" placeholder="Area sq.feet"/>
+        </div>
+        <div class="House_Building_Survey">
+                <h1 class="tile_button1">No. of Bedrooms</h1>
+                <input  class="input_box12" type="text"/>
+        </div>
+        <div class="House_Building_Survey">
+                <h1 class="tile_button1">No. of Bathrooms</h1>
+                <input  class="input_box123" type="text"/>
+        </div>
+        <div class="House_Building_Survey">
+                <h1 class="tile_button1">No. of floors</h1>
+                <input  class="input_box1234" type="text"/>
+        </div>
+        <div class="House_Building_Survey">
+                <h1 class="tile_button1">no. of kitchens</h1>
+                <input  class="input_box12345" type="text"/>
+        </div>
+        <div class="House_Building_Survey">
+                <h1 class="tile_button1">No. of Seperate Bathrooms</h1>
+                <input  class="input_box123456" type="text"/>
+        </div>
+
+        <div class="survey_container">
+            <div class="sub_survey_container">
+                <button class="tile_button" onclick="open_container_popup()">Checklists</button>
+                <label>
+                    <input type="checkbox" >
+                </label>
+            </div>
+        </div>
+
+        
+        <div class="locationcontainer">
+            <p>Click on Exact Location Button to get your location</p>
+            <button onclick="getPreciseLocation()">Precise Location</button>
+            <p id="location"></p>
+        </div>
+
+        <button class="budget_button" onclick="Budget()">Expected Budget</button>
+        
+        
+        <div class="lastdetails">
+            <h1>Describe Your Other Requirement?</h1>
+            <input placeholder="Requirements" type="text"/>
+        </div>
+        
+        <div class="Submit" onclick="directingtopage()">Submit</div>
+
+<!--*************************************************************************************************************************-->
+        <!--I Have to add here the code of the checklist-->
+    <div class="container_popup" id="container_popup"><!--checklist popup-->
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Puja Room</h1>
+             <label>
+                 <input class="checklist_checkbox" type="checkbox" >
+             </label>
+         </div >
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Gallery</h1>
+             <label>
+                 <input type="checkbox" class="checklist_checkbox" >
+             </label>
+         </div>
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Balcany</h1>
+             <label>
+                 <input type="checkbox"  class="checklist_checkbox">
+             </label>
+         </div>
+         <div class="sub_container_popup">
+             <h1 class="tile_button">Swimming Pool</h1>
+             <label>
+                 <input type="checkbox" class="checklist_checkbox" >
+             </label>
+         </div>
+         <div class="sub_container_popup">
+             <h1 class="tile_button">garden</h1>
+             <!--<input  class="input_box" type="text" placeholder="Area sq.feet"/>-->
+             <label>
+                <input type="checkbox" class="checklist_checkbox" >
+            </label>
+         </div>
+         <div class="sub_container_popup">
+             <button class="btn_sub_container_popup" onclick="close_container_popup()">Submit</button>
+         </div>
+    </div>
+
+    <script src="HouseBuildfreeSurvey.js"></script>
+</body>
+</html>

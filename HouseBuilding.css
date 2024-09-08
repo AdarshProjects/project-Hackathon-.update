@@ -1,0 +1,111 @@
+body{
+    background-color: #FBE6B8;
+    padding-top: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*The css that we use to make the navbar*/
+.container{
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    width: 1130px;
+    height: 97px;
+}
+.sub1-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+}
+.container-img{
+    width: 200px;
+    height: 97px;
+    border-radius: 15px;
+}
+span{
+    justify-content: space-between;
+}
+
+
+.Rennovation-container{
+    width: 1130px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+.Rennovation-container h1{
+    width: 50%;
+    font-size: 75px;
+    font-family: Inria Serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Rennovation-container p{
+    font-size: 43px;
+    width: 50%;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+.Rennovation-container img{
+    width: 485px;
+    height: 300px;
+    position: absolute;
+    right: 0; 
+    top: 64%;
+    left: 53%;
+    background: #fff;
+}
+.h1-text{
+    margin-left:30%;
+    font-size: 48px;
+}
+.survey-container{
+    margin-top: 13px;
+    width:1130px;
+    height:397px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+.survey-container img{
+    width: 128px;
+    height: 103px;
+    margin-left: 10px;
+}
+.survey-container h1{
+    font-size: 45px;
+    margin-left: 50px;
+}
+.sub-survey-conatiner{
+    display: flex;
+}
+.survey-container p{
+    font-size: 40px;
+    width: 1000px;
+    margin-left: 80px;
+}
+.survey-container button{
+    padding: 10px 30px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-left: 40%;
+    background: #FEBD68;
+}
+.free-survey{
+    padding: 10px 30px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-left: 45%;
+    margin-top: 10%;
+}

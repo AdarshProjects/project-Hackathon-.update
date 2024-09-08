@@ -1,0 +1,171 @@
+body{
+    background-color: yellow;
+}
+.text_h1{
+    margin-left: 20%;
+}
+.tile_button{
+    padding: 10px 30px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+h1.tile_button{
+    display: inline-block; /* Allows padding and margins to be applied */
+    padding: 10px 30px;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin: 0; /* Remove default margin of h1 tag */
+}
+.survey_container{
+    width: 320px;
+    border: 2px solid black;
+    margin-left: 40%;
+}
+.sub_survey_container{
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 61%;
+}
+input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*
+label {
+    display: block; 
+    width: 50px;
+    height: 50px;
+}
+
+input[type="checkbox"] {
+    width: 100%;
+    height: 100%;
+    
+}*/
+/* ------------------------------------css of tiling popup ----------------------------------------------------*/
+.container_popup{
+    background-color: #DE6D48;
+    width: 350px;
+    padding: 25px;
+    border: 2px solid yellow;
+    border-radius: 23px;
+    position: absolute; /* Changed to absolute for centering in the viewport */
+    top: 0%;
+    left: 52%;
+    transform: translate(-50%, -50%) scale(0.1); /* Centering both horizontally and vertically */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-container-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+}
+.sub_container_popup{
+    padding: 15px;
+}
+.input_box {
+   
+    width: 180px; /* Full width within the container */
+    height: 30px; /* Set a consistent height */
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is inside the width */
+    position: absolute;
+    top: 76%;
+    left: 50%;
+}
+.sub_container_popup12{
+    display:flex;
+}
+.tile_button1{
+    padding: 10px 30px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+.btn_sub_container_popup{
+    padding: 10px 20px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 16px;
+    margin-left: 15px;
+    position: absolute;
+    top:93%;
+    left: 34%;
+}
+/*The css of the Interior_popup--------------------------------------------------------------------*/
+.Interior_popup{
+    background-color: #DE6D48;
+    width: 350px;
+    padding: 25px;
+    border: 2px solid yellow;
+    border-radius: 23px;
+    position: absolute; /* Changed to absolute for centering in the viewport */
+    top: 0%;
+    left: 52%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open_Interior_popup{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    top: 50%;
+}
+.btn_interior_popup{
+    padding: 10px 20px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 16px;
+    margin-left: 15px;
+    position: absolute;
+    top:93%;
+    left: 34%;
+}
+
+.Submitting_information{
+    padding: 10px 30px;
+    background: #fff;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-left:47%;
+}

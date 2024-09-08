@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="hackathon.css">
+</head>
+<body>
+    <!-- This is the header code -->
+    <div class="container">
+        <div>
+            <img  class="container-img" src="thekedar.jpg"/>
+        </div>
+        <div class="sub1-container">
+          <span><h2>Home</h2></span>
+          <span><h2>About</h2></span>
+          <span><h2>Help</h2></span>
+        </div>
+    </div>
+    <!-- This is the code with the photo -->
+    <div class="container2">    
+        <div>
+            <img class="conatiner2-img" src="construction site photo.PNG"/>
+        </div>
+        <div class="container2-text">
+            <p id="Plan_your_dream_line" class="container2-text-p1">Plan your dream home renovation with our easy online survey.</p>
+            <p id="Get_a_personalized_line" class="container2-text-p2">Get a personalized quote and expert advice for your home project.</p>
+        </div>
+    </div>
+    <!-- This is the little bit of code chossing lnguage button -->
+    <div class="conatiner3">
+        <h1 id="lang" class="container3-h1">Choose Language :</h1>
+        <select class="Langauge" id="langauge" name="TheLangauge">
+            <option>Choose</option>
+            <option value="Eng">English</option>
+            <option value="Hin">Hindi</option>
+        </select>
+        <div class="icon-container">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </div>
+    <div class="container4">
+        <h2 id="Our_comphrehensive_line" class="container4-text">Our comprehensive survey guides you through the entire home renovation process, helping you
+             visualize your dream home and providing valuable insights for a successful project.</h2>
+    </div>
+
+    <!--****************************Last three photos code ************************************************-->
+    <div class="timeline"></div>
+        <div class="container5 left-container">
+            <img class="helmet" src="helmet logo.PNG"/>
+            <div class="image-box">
+                <img src="rennovation2.PNG" onclick="openRennovationPage()" />
+                <h1 id="Rennovation">Rennovation</h1>
+            </div>
+        </div>
+        <div class="container5 right-container">
+            <img class="helmet" src="helmet logo.PNG"/>
+            <div class="image-box">
+                <img src="House Building.PNG" onclick="openingHouseBuilding()"/>
+                <h1 id="House_Building">House Building</h1>
+                
+            </div>
+        </div>
+        <div class="container5 left-container">
+            <img class="helmet" src="helmet logo.PNG"/>
+            <div class="image-box">
+                <img src="work place.PNG"/>
+                <h1 id="Work_place">Work Place</h1>
+            </div>
+        </div>
+    </div>
+<script src="hackathon.js"></script>
+<script src="language.js"></script>
+</body>
+</html>
